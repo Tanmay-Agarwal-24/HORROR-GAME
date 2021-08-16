@@ -44,7 +44,7 @@ function preload() {
 
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+    createCanvas(676-10+676, 675)
   background(introBackgroundImg)
 
   //playButton
