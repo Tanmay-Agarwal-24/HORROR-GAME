@@ -492,9 +492,7 @@ function draw() {
 
   if (gameState === 'end1') {
     background(bg4img)
-    textSize(50)
-    fill('white')
-    text('ghost reaches you reload to play again',player.x-50,player.y-100)
+    
     player.setVelocity=(0,0)
     blacklock.visible = false
     whiteKey.visible = false
